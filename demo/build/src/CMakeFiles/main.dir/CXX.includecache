@@ -16,3 +16,15 @@ stdio.h
 elf.h
 -
 
+/home/aa/Desktop/demo/src/main.cpp
+stdio.h
+-
+dlfcn.h
+-
+stdlib.h
+-
+iostream
+-
+elf_header_judge.h
+/home/aa/Desktop/demo/src/elf_header_judge.h
+

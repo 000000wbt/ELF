@@ -11,13 +11,13 @@ struct shared_object_link_map {
 
 void elf_header_judge(void* handle){
     struct shared_object_link_map* elf_images_link_map;
-    printf("secceeded\n");
+    printf("judge secceeded\n");
     elf_images_link_map = (struct shared_object_link_map*) handle;
     char* x;
     x = (char *)elf_images_link_map->l_addr;
     if('E' == *(x + 1) && 'L' == *(x + 2) && 'F' == *(x + 3))
-        printf("secceeded\n");
+        printf("Is ELF_file\n");
     else
-	printf("not ELF_file\n");
+	printf("Not ELF_file\n");
     return ;
 }
