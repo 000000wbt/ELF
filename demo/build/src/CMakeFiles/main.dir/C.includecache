@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/elf_header_judge.h
+
+../include/elf_runtime_query_symbol_offset.h
+
+../include/testFun1.h
+
+../include/testfun2.h
+
+/home/aa/Desktop/demo/src/main.c
+stdio.h
+-
+dlfcn.h
+-
+testFun1.h
+/home/aa/Desktop/demo/src/testFun1.h
+testfun2.h
+/home/aa/Desktop/demo/src/testfun2.h
+elf_runtime_query_symbol_offset.h
+/home/aa/Desktop/demo/src/elf_runtime_query_symbol_offset.h
+elf_header_judge.h
+/home/aa/Desktop/demo/src/elf_header_judge.h
+

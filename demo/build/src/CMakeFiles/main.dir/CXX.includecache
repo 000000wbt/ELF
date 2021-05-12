@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/elf_header_judge.h
+
+/home/aa/Desktop/demo/src/elf_header_judge.cpp
+elf_header_judge.h
+/home/aa/Desktop/demo/src/elf_header_judge.h
+stdio.h
+-
+elf.h
+-
+
